@@ -1,53 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset = "UTF-8">
-<title>Final Project</title>
-<link rel="stylesheet" href="D:\css\together1.css">
-<head>
-<body>
-	<header>
-		<h1>Satyam</h1>
-		<nav>
-			<a href="http://www.gmail.com">One</a>
-			<a href="http://www.facebook.com">Two</a>
-			<a href="http://www.google.com">Three</a>
-			<a href="http://www.github.com">Four</a>
-		</nav>
-	</header>
-	<section>
-		<h2>Favorite Foods</h2>
-		<ul>
-			<li>pav bhaji</li>
-			<li>gulab jamun</li>
-			<li>chicken</li>
-			<li>Daaru</li>
-		</ul>
-	</section>
-	<section>
-		<mark>Achievements</mark>
-		Progress in this course (100%)
-		<progress value="100" max="100"></progress>
-		<br>
-		Progress in the Specialization capstone (20%)
-		<progress value="20" max="100"></progress>
-		<br>
-		Progress in life goals (68%)
-		<progress value="68" max="100"></progress>
-	</section>
-	<section>
-		<h2>More About Me</h2>
-		<details><summary>My Childhood</summary>I grew up in Mumbai.I lived in a small house and I really miss the fun which I had back then.</details><br>
-		<p>
-		The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.</p>
-
-
-		
-	</section>
-	<footer><img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Web Design For Everyone">
-        This page was created by Satyam &amp; Colleen van Lent.To learn more about web design, visit
-        <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>
-    </footer>
+	<meta charset="utf-8">
+	<title>Student Registration Form</title>	
 </head>
+<body>
+<form>
+<fieldset>
+	<legend><h2>Student Resigtration Form</h2></legend>
+<tr>
+<td colspan=2></td>
+</tr>
+<br>
+<tr>
+<td><b>Name of the student</b></td>
+<td><input type="text" Name = textname></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Father's Name</b></td>
+<td><input type="text" Name = Fathers Name ></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Permanent Address</b></td>
+<td><input type="text" Name="Address"></td>	
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Contact Number<b></td>
+<td><input type="" Name="Contact Number"></td>	
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Pincode</b></td>
+<td><input type="text" name="Pincode"></td>	
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Gender</b></td>
+<td><input type="radio" name="Gender" value="Male">Male</td>
+<td><input type="radio" name="Gender" value="Female">Female</td>
+<td><input type="radio" name="Gender" value="Other">Other</td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>City</b></td>
+<td><select name="City">
+<option value="-1" selected>select..</option>	
+<option  value="New Delhi">New Delhi</option>
+<option  value="Kolkata">Kolkata</option>
+<option  value="Mumbai">Mumbai</option>
+<option  value="Goa">Goa</option>
+<option  value="Bokaro">Bokaro</option>
+</select></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Course</b></td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>District</b></td>
+<td><select name="District">
+<option value="-1" selected>select..</option>
+<option value="Nalanda">NALANDA</option>
+<option value="UP">UP</option>
+<option value="Goa">GOA</option>
+<option value="Patna">PATNA</option>
+</select></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>State</b></td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">NEW DELHI</option>
+<option value="Mumbai">MUMBAI</option>
+<option value="Goa">GOA</option>
+<option value="Bihar">BIHAR</option>
+</select></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>Email Id</b></td>
+<td><input type="text" name="Email Id" ></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><b>DOB</b></td>
+<td><input type="text" name="DOB"></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+</tr>
+<br>
+</fieldset>
+</form>
 </body>
 </html>
